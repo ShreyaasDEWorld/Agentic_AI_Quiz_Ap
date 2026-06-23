@@ -1,0 +1,11 @@
+[tool.poetry]
+name = "agentic_ai_quiz_ap"
+version = "0.1.0"
+description = "Agentic AI Quiz App"
+authors = ["Your Name"]
+
+[tool.poetry.dependencies]
+python = ">=3.12,<3.13"
+streamlit = "1.36.0"
+pandas = "2.2.2"
+pillow = "10.3.0"
