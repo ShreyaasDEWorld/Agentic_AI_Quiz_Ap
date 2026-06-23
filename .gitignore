@@ -1,0 +1,100 @@
+# Python
+
+**pycache**/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+
+venv/
+env/
+ENV/
+.venv/
+
+# Environment Variables
+
+.env
+.env.*
+
+# Streamlit Secrets
+
+.streamlit/secrets.toml
+
+# Jupyter Notebooks
+
+.ipynb_checkpoints/
+
+# VS Code
+
+.vscode/
+
+# PyCharm
+
+.idea/
+
+# macOS
+
+.DS_Store
+
+# Windows
+
+Thumbs.db
+desktop.ini
+
+# Logs
+
+*.log
+logs/
+
+# Coverage Reports
+
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Build Artifacts
+
+build/
+dist/
+*.egg-info/
+
+# Database Files
+
+*.db
+*.sqlite3
+
+# Temporary Files
+
+temp/
+tmp/
+
+# ChromaDB (if you use vector database later)
+
+chroma_db/
+persist_directory/
+
+# LangChain Cache
+
+.langchain/
+
+# Secrets
+
+config/secrets.py
+
+# Uploaded Files
+
+uploads/
+
+# Generated Files
+
+results/
+reports/
+certificates/
+
+# GitHub Actions Cache
+
+.cache/
+
+# Streamlit Cache
+
+.streamlit/cache/

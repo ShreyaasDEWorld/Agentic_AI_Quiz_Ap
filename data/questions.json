@@ -1,0 +1,222 @@
+[
+  {
+    "question": "What is an AI Agent?",
+    "options": [
+      "A database query optimizer",
+      "A system that perceives, reasons, and takes actions to achieve goals",
+      "A programming language",
+      "A vector database"
+    ],
+    "answer": "A system that perceives, reasons, and takes actions to achieve goals",
+    "explanation": "An AI Agent can observe information, make decisions, and perform actions toward achieving a goal."
+  },
+  {
+    "question": "What is Agentic AI?",
+    "options": [
+      "Traditional machine learning models",
+      "Rule-based systems only",
+      "AI systems capable of planning, reasoning, and taking actions autonomously",
+      "SQL optimization"
+    ],
+    "answer": "AI systems capable of planning, reasoning, and taking actions autonomously",
+    "explanation": "Agentic AI extends LLMs by enabling planning, tool usage, memory, and autonomous task execution."
+  },
+  {
+    "question": "Which framework is commonly used for Agentic AI development?",
+    "options": [
+      "NumPy",
+      "LangChain",
+      "Flask only",
+      "TensorFlow Lite"
+    ],
+    "answer": "LangChain",
+    "explanation": "LangChain provides tools, memory, chains, agents, and integrations for building Agentic AI systems."
+  },
+  {
+    "question": "What is a Tool in Agentic AI?",
+    "options": [
+      "A database table",
+      "An external capability an agent can invoke",
+      "A programming language",
+      "A cloud service"
+    ],
+    "answer": "An external capability an agent can invoke",
+    "explanation": "Tools allow agents to perform actions such as database queries, API calls, calculations, and searches."
+  },
+  {
+    "question": "What is Retrieval-Augmented Generation (RAG)?",
+    "options": [
+      "A database indexing strategy",
+      "A method of retrieving relevant information before generating a response",
+      "A Python package",
+      "A neural network layer"
+    ],
+    "answer": "A method of retrieving relevant information before generating a response",
+    "explanation": "RAG combines retrieval systems with LLMs to improve answer accuracy using external knowledge."
+  },
+  {
+    "question": "Why are embeddings used in Agentic AI?",
+    "options": [
+      "To train databases",
+      "To convert text into vector representations for semantic search",
+      "To replace SQL",
+      "To store images"
+    ],
+    "answer": "To convert text into vector representations for semantic search",
+    "explanation": "Embeddings help compare semantic similarity between documents and queries."
+  },
+  {
+    "question": "What is a Vector Database?",
+    "options": [
+      "A relational database only",
+      "A system optimized for storing and searching vector embeddings",
+      "A spreadsheet application",
+      "A web server"
+    ],
+    "answer": "A system optimized for storing and searching vector embeddings",
+    "explanation": "Vector databases enable efficient similarity searches on embeddings."
+  },
+  {
+    "question": "Which Vector Database is commonly used with LangChain?",
+    "options": [
+      "Oracle Forms",
+      "ChromaDB",
+      "Excel",
+      "MySQL Workbench"
+    ],
+    "answer": "ChromaDB",
+    "explanation": "ChromaDB is widely used in RAG applications due to its simplicity and integration support."
+  },
+  {
+    "question": "What is Chunking?",
+    "options": [
+      "Compressing files",
+      "Splitting large documents into smaller pieces",
+      "Encrypting data",
+      "Training models"
+    ],
+    "answer": "Splitting large documents into smaller pieces",
+    "explanation": "Chunking improves retrieval accuracy by breaking large documents into manageable sections."
+  },
+  {
+    "question": "Why is Chunk Overlap used?",
+    "options": [
+      "To increase storage costs",
+      "To preserve context across chunks",
+      "To delete duplicate data",
+      "To speed up APIs"
+    ],
+    "answer": "To preserve context across chunks",
+    "explanation": "Overlap ensures important information spanning chunk boundaries isn't lost."
+  },
+  {
+    "question": "What is Memory in Agentic AI?",
+    "options": [
+      "Hard disk storage",
+      "The ability to remember context and previous interactions",
+      "Database indexing",
+      "CPU cache"
+    ],
+    "answer": "The ability to remember context and previous interactions",
+    "explanation": "Memory enables agents to maintain context across conversations."
+  },
+  {
+    "question": "What is the primary role of a Supervisor Agent?",
+    "options": [
+      "Database backup",
+      "Routing tasks to appropriate specialized agents",
+      "Training embeddings",
+      "Creating dashboards"
+    ],
+    "answer": "Routing tasks to appropriate specialized agents",
+    "explanation": "Supervisor Agents coordinate workflows and delegate tasks."
+  },
+  {
+    "question": "What is Multi-Agent Architecture?",
+    "options": [
+      "Multiple databases",
+      "Several specialized agents collaborating to solve tasks",
+      "Multiple cloud regions",
+      "Multiple APIs"
+    ],
+    "answer": "Several specialized agents collaborating to solve tasks",
+    "explanation": "Different agents handle specific responsibilities and work together."
+  },
+  {
+    "question": "Which component helps an agent access current information?",
+    "options": [
+      "Hardcoded prompts",
+      "Tools and Retrieval Systems",
+      "Python comments",
+      "HTML"
+    ],
+    "answer": "Tools and Retrieval Systems",
+    "explanation": "Agents use tools and retrieval mechanisms to access dynamic information."
+  },
+  {
+    "question": "What is Tool Calling?",
+    "options": [
+      "Calling another Python file",
+      "Allowing an LLM to invoke external functions or APIs",
+      "Running SQL manually",
+      "Creating databases"
+    ],
+    "answer": "Allowing an LLM to invoke external functions or APIs",
+    "explanation": "Tool calling enables agents to execute actions beyond text generation."
+  },
+  {
+    "question": "What is LangGraph used for?",
+    "options": [
+      "Data visualization",
+      "Building stateful multi-agent workflows",
+      "Database administration",
+      "Cloud deployment"
+    ],
+    "answer": "Building stateful multi-agent workflows",
+    "explanation": "LangGraph is designed for orchestrating agent workflows and complex reasoning paths."
+  },
+  {
+    "question": "What is Hallucination in AI?",
+    "options": [
+      "Perfect answer generation",
+      "Generating incorrect information confidently",
+      "Data encryption",
+      "Vector indexing"
+    ],
+    "answer": "Generating incorrect information confidently",
+    "explanation": "Hallucinations occur when models produce inaccurate or fabricated information."
+  },
+  {
+    "question": "How does RAG help reduce hallucinations?",
+    "options": [
+      "By increasing model size",
+      "By retrieving factual external information before generation",
+      "By reducing prompts",
+      "By deleting memory"
+    ],
+    "answer": "By retrieving factual external information before generation",
+    "explanation": "Grounding responses in retrieved documents improves factual accuracy."
+  },
+  {
+    "question": "Which OpenAI component is commonly used for semantic search?",
+    "options": [
+      "GPT-4o only",
+      "Embedding Models",
+      "Whisper",
+      "DALL-E"
+    ],
+    "answer": "Embedding Models",
+    "explanation": "Embedding models convert text into vectors for similarity search."
+  },
+  {
+    "question": "What is the main benefit of Agentic AI?",
+    "options": [
+      "Better Excel formulas",
+      "Autonomous problem solving using reasoning, memory, tools, and actions",
+      "Faster internet speed",
+      "More database storage"
+    ],
+    "answer": "Autonomous problem solving using reasoning, memory, tools, and actions",
+    "explanation": "Agentic AI combines reasoning, planning, memory, and tools to perform complex tasks autonomously."
+  }
+]
